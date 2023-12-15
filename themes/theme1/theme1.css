@@ -1,0 +1,10 @@
+/* themes/theme1/theme1.css */
+/* Theme 1 specific styles go here */
+
+h2 {
+    color: #007bff; /* Blue color for h2 in theme1 */
+}
+
+article {
+    border: 1px solid #ddd; /* Border for articles in theme1 */
+}
