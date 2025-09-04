@@ -22,7 +22,7 @@ author: kongkong
 navbar-links:
   About Me: 
       - Motivation: "./navbar/aboutme"
-      - CV: "cv"
+      - CV: "./navbar/cv"
   Resources:
       - Daily Life: "./navbar/daily-life"
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
