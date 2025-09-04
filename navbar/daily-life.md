@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Daily Life
-permalink: /daily-life/
+permalink: navbar/daily-life/
 ---
 
 <h2>Daily Life Archive</h2>
