@@ -21,10 +21,10 @@ author: kongkong
 
 navbar-links:
   About Me: 
-      - Motivation: "./navbar/aboutme"
-      - CV: "./navbar/cv"
+      - Motivation: "/navbar/aboutme"
+      - CV: "/navbar/cv"
   Resources:
-      - Daily Life: "./navbar/daily-life"
+      - Daily Life: "/navbar/daily-life"
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
 #  Author's home: "https://deanattali.com"
