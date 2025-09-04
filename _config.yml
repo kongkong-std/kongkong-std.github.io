@@ -20,7 +20,8 @@ author: kongkong
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: 
+      - Motivation: "aboutme"
   Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
