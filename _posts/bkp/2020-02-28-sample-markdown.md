@@ -8,7 +8,6 @@ tags: [test]
 comments: true
 mathjax: true
 author: Bill Smith
-categories: [daily-life]
 ---
 
 {: .box-success}
