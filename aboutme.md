@@ -1,16 +1,20 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Keep striving with unremitting efforts 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Zikang Qin (秦子康). I have:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- A lovable wife MaoMao;
+- A cute son PengPeng;
+- A warm family.
 
-What else do you need?
+### The Motivation Behind Writing This Blog
 
-### My story
+To be honest, I really enjoy sharing my life. 
+I feel incredibly grateful to have such a warm and loving family — including my gentle wife and adorable son. 
+I want to capture those moments and reflections of our family life, 
+so we can look back in the future and cherish these happy memories. 
+I’ll also be sharing some of my thoughts and insights related to the work I do.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
