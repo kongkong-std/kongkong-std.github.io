@@ -8,7 +8,7 @@ tags: [test]
 comments: true
 mathjax: true
 author: Bill Smith
-categories: [daily-life]
+categories: [sc]
 ---
 
 {: .box-success}
