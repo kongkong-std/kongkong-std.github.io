@@ -24,13 +24,15 @@
     {% if page.page_num == 2 %}
       <a href="{{ '/navbar/sc/' }}" class="prev">Previous Page</a>
     {% else %}
-      <a href="{{ '/navbar/sc/page' | append: page.page_num | minus: 1 | append: '/' }}" class="prev">Previous Page</a>
+      {% assign prev_num = page.page_num | minus: 1 %}
+      <a href="{{ '/navbar/sc/page' | append: prev_num | append: '/' }}" class="prev">Previous Page</a>
     {% endif %}
   {% endif %}
 
   <span>Page {{ page.page_num }}, Total {{ page.total_pages }}</span>
 
   {% if page.page_num < page.total_pages %}
-    <a href="{{ '/navbar/sc/page' | append: page.page_num | plus: 1 | append: '/' }}" class="next">Next Page</a>
+    {% assign next_num = page.page_num | plus: 1 %}
+    <a href="{{ '/navbar/sc/page' | append: next_num | append: '/' }}" class="next">Next Page</a>
   {% endif %}
 </div>
