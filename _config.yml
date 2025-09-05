@@ -313,5 +313,3 @@ plugins:
 plugins:
   - jekyll-paginate-v2
 
-paginate: 20               # 每页显示 20 篇文章
-paginate_path: "/navbar/sc/page:num/"  # 分页 URL 模板
