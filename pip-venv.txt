@@ -1,0 +1,4 @@
+ 1194  python3 -m venv venv
+ 1195  source venv/bin/activate
+ 1196  pip install pyyaml -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1197  python3 scripts/generate_sc_archive.py
