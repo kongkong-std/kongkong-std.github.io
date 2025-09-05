@@ -6,6 +6,7 @@ comments: true
 mathjax: true
 author: KongKong
 categories: [sc]
+tags: [Conda]
 ---
 
 {: .box-success}
