@@ -136,6 +136,7 @@ navbar-var-length: false
 remove-ads: true
 
 future: true
+social-share: false
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"
 
