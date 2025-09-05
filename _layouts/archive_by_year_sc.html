@@ -6,7 +6,8 @@
   <h3>{{ year }}</h3>
   <ul>
   {% for post in posts %}
-    {% if post.date | date: "%Y" == year %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if post_year == year | stringify %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
         <span class="text-muted">({{ post.date | date: "%m-%d" }})</span>
