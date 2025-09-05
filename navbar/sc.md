@@ -1,16 +1,21 @@
 ---
-layout: page
+layout: default
 title: Scientific Computing
-permalink: navbar/sc/
+permalink: /navbar/sc/
+pagination:
+  enabled: true
+  collection: posts
+  category: sc
+  per_page: 20
+  title: ':title - page :num'
 ---
 
 <h2>Scientific Computing Archive</h2>
 
-{% assign posts = site.categories.sc | sort: "date" | reverse %}
 {% assign current_year = "" %}
 
 <ul>
-{% for post in posts %}
+{% for post in paginator.posts %}
   {% assign post_year = post.date | date: "%Y" %}
   {% if post_year != current_year %}
     {% unless forloop.first %}</ul>{% endunless %}
@@ -24,3 +29,16 @@ permalink: navbar/sc/
   </li>
 {% endfor %}
 </ul>
+
+<!-- 分页导航 -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="prev">Previous page</a>
+  {% endif %}
+
+  <span>page {{ paginator.page }}, total {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next page</a>
+  {% endif %}
+</div>

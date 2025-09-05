@@ -310,6 +310,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+plugins:
+  - jekyll-paginate-v2
 
+paginate: 20               # 每页显示 20 篇文章
+paginate_path: "/navbar/sc/page:num/"  # 分页 URL 模板
