@@ -25,7 +25,7 @@ navbar-links:
       - CV: "/navbar/cv"
   Resources:
       - Daily Life: "/navbar/daily-life"
-      - Scientific Computing: "/navbar/sc.md"
+      - Scientific Computing: "/navbar/sc"
   Numerical Linear Algebra:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
