@@ -135,6 +135,7 @@ navbar-var-length: false
 # remove footer ads
 remove-ads: true
 
+future: true
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"
 
