@@ -22,17 +22,30 @@
 <div class="pagination">
   {% if page.page_num > 1 %}
     {% if page.page_num == 2 %}
-      <a href="{{ '/navbar/sc/' }}" class="prev">Previous Page</a>
+      <a href="{{ '/navbar/sc/' }}" class="prev">Previous</a>
     {% else %}
       {% assign prev_num = page.page_num | minus: 1 %}
-      <a href="{{ '/navbar/sc/page' | append: prev_num | append: '/' }}" class="prev">Previous Page</a>
+      <a href="{{ '/navbar/sc/page' | append: prev_num | append: '/' }}" class="prev">Previous</a>
     {% endif %}
   {% endif %}
 
-  <span>Page {{ page.page_num }}, Total {{ page.total_pages }}</span>
+  <!-- 数字页码导航 -->
+  {% for i in (1..page.total_pages) %}
+    {% if i == 1 %}
+      {% assign url = '/navbar/sc/' %}
+    {% else %}
+      {% assign url = '/navbar/sc/page' | append: i | append: '/' %}
+    {% endif %}
+
+    {% if i == page.page_num %}
+      <span class="current">{{ i }}</span>
+    {% else %}
+      <a href="{{ url }}">{{ i }}</a>
+    {% endif %}
+  {% endfor %}
 
   {% if page.page_num < page.total_pages %}
     {% assign next_num = page.page_num | plus: 1 %}
-    <a href="{{ '/navbar/sc/page' | append: next_num | append: '/' }}" class="next">Next Page</a>
+    <a href="{{ '/navbar/sc/page' | append: next_num | append: '/' }}" class="next">Next</a>
   {% endif %}
 </div>
