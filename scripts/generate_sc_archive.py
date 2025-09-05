@@ -5,7 +5,7 @@ import yaml
 # ---------------- 配置 ----------------
 category = "sc"                     # 分类名
 layout = "archive_by_year_sc"       # 使用的 layout
-per_page_years = 3                  # 每页显示多少年份
+per_page_years = 1                  # 每页显示多少年份
 posts_dir = "_posts/resources/sc"                # Jekyll posts 目录
 output_dir = "./navbar/sc"     # 生成的页面目录
 # -------------------------------------
